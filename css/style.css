@@ -8,7 +8,8 @@ h3{}
 .bold{font-weight:bold}
 .pointer{cursor:pointer;}
 
-body{}
+body{background:#E0E0E0;font-family:Verdana;font-size:14px;color:#353535;}
+.page{background:#FFF;width:900px;margin:0 auto;}
 
 .cms_header{}
 .header{}

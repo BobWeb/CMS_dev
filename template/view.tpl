@@ -11,6 +11,9 @@
         echo $js; ?>
     </head>
     <body>
+        <?php include_once("template/admin/tpl/admin_panel.tpl"); ?>
+        <div class="page">
         <?php echo $html_content; ?>
+        </div>
     </body>
 </html>
