@@ -52,6 +52,7 @@ class block extends common_model {
             }
             if($htmlHead != ""){
                 $htmlHead = '<div class="cms_header">'.$htmlHead."</div>";
+                $htmlHead.= '<div class="clearboth"></div>';
             }
             if($htmlLeft != ""){
                 $htmlLeft = '<div class="cms_left">'.$htmlLeft."</div>";
@@ -60,7 +61,8 @@ class block extends common_model {
                 $htmlRight = '<div class="cms_right">'.$htmlRight."</div>";
             }
             if($htmlFooter != ""){
-                $htmlFooter = '<div class="cms_footer">'.$htmlFooter."</div>";
+                $htmlFooter = '<div class="clearboth"></div>';
+                $htmlFooter.= '<div class="cms_footer">'.$htmlFooter."</div>";
             }
             $html = $htmlHead.$htmlLeft.$htmlRight.$htmlFooter;
         }

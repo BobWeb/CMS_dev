@@ -10,13 +10,16 @@ h3{}
 
 body{}
 
+.cms_header{}
 .header{}
 
 .navigation{}
 
+.cms_left{float:left;}
+.aside{}
+
+.cms_right{float:left;}
 .article{}
 .article .section{}
-
-.aside{}
 
 .footer{}
