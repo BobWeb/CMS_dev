@@ -1,0 +1,22 @@
+*{margin:0;padding:0;position:relative;}
+a{}
+h1{}
+h2{}
+h3{}
+.clearboth{clear:both}
+.uppercase{text-transform:uppercase}
+.bold{font-weight:bold}
+.pointer{cursor:pointer;}
+
+body{}
+
+.header{}
+
+.navigation{}
+
+.article{}
+.article .section{}
+
+.aside{}
+
+.footer{}

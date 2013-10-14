@@ -1,0 +1,35 @@
+form.formulaire{margin:20px 0 0 50px;}
+form.formulaire h3{color:#000;margin-top:10px;}
+form.formulaire .message_error{color:red;}
+form.formulaire label{color:#000;}
+form.formulaire label .libelle{display:inline-block;width:150px;text-align:right;margin-right:20px;}
+form.formulaire input[type=text],
+form.formulaire input[type=email],
+form.formulaire input[type=tel],
+form.formulaire input[type=password],
+form.formulaire input[type=number]{padding:10px;border:solid 1px #CCC;width:200px;border-radius:3px;outline:none;}
+form.formulaire textarea{font-family:Arial;padding:10px;width:480px;height:100px;border:solid 1px #CCC;border-radius:3px;outline:none;}
+form.formulaire input[type=submit]{margin:10px 230px;padding:8px 10px 10px;border:none;background:#1676F1;border-radius:3px;color:#FFF;}
+
+form.formulaire .checkbox_monochoice{color:#000;cursor:pointer;}
+form.formulaire .checkbox_monochoice input[type=radio],
+form.formulaire .checkbox_monochoice input[type=checkbox]{display:none;}
+form.formulaire .checkbox_monochoice span.rounded{display:inline-block;background:#FFF;border:solid 3px #bdc3c7;width:9px;height:9px;vertical-align:middle;border-radius:8px;position:relative;}
+form.formulaire .checkbox_monochoice input:checked + .rounded{border-color:#1676F1;}
+form.formulaire .checkbox_monochoice input:checked + .rounded:after{content:'';display:block;width:5px;height:5px;background:#1676F1;position:absolute;top:2px;left:2px;border-radius:2px;}
+
+form.formulaire .checkbox_duochoice input[type=checkbox]{display:none;}
+form.formulaire .checkbox_duochoice .switch{display:inline-block;margin-left:10px;width:79px;height:28px;vertical-align:middle;overflow:hidden;border-radius:20px;-webkit-mask:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAAAcCAIAAACvTHWIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjg5QjQ5QzBFMDc0MjExRTM5RTNERUQ3ODE0OTI4RDJGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjg5QjQ5QzBGMDc0MjExRTM5RTNERUQ3ODE0OTI4RDJGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ODlCNDlDMEMwNzQyMTFFMzlFM0RFRDc4MTQ5MjhEMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODlCNDlDMEQwNzQyMTFFMzlFM0RFRDc4MTQ5MjhEMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5ZsnltAAABQUlEQVR42uTZsWqEQBAG4D0XBCtBEHwAQRAEwUqwtRV8TkHBVgQLW0GwFARf4mwU85sEkwvnkUAK3flbLfYrdndm9rauKztI13VZlhVFMU1T27bLsrBThnPuuq6iKGEYxnHsOM7hr+uzpGlqWRa7ZrDyJEmeun5qx3H0fZ9dP1DA8kpbVZWmaUyUwALRcy0+yLLMxApE38Gf2mEYdF1nIgYu6B60QRAwcQPdlxYnGBM9H6f0pr3uZfOna2nTYhMzGoGUG4ZR1zUFLaSoujhuYQrajXp/DwUtmHye59OW+/8bSCVGKZKqqkSokEq2bRPRQiqJ0d/9sgckVF2UZUmsciTXFQjf8WHHPvS3fd8L3M1DR3hSQ24KR27CugcnmGmaF3Vi5UfT89uLl5GmafI8319GzizcX0aiKPI87+i3NwEGAEtJtsU+sodYAAAAAElFTkSuQmCC");}
+form.formulaire .checkbox_duochoice .switch .switch-container{display:inline-block;width:130px;height:28px;margin-left:-51px;transition-duration:0.3s;}
+form.formulaire .checkbox_duochoice .switch .on,.switch .off{display:inline-block;float:left;background:#27ae60;width:50%;height:20px;padding:4px 0px;text-align:center;color:#FFF;font-size:15px;position:relative;z-index:1;}
+form.formulaire .checkbox_duochoice .switch .on{border-top-left-radius:20px;border-bottom-left-radius:20px;}
+form.formulaire .checkbox_duochoice .switch .off{background:#e74c3c;border-top-right-radius:20px;border-bottom-right-radius:20px;}
+form.formulaire .checkbox_duochoice .switch .mid{display:inline-block;width:20px;height:20px;background:#FFF;margin-left:-14px;margin-right:-14px;border-radius:20px;float:left;position:relative;z-index:2;border:4px solid #e74c3c;transition-duration:0.3s;}
+form.formulaire .checkbox_duochoice input:checked + .switch-container{margin:0;}
+form.formulaire .checkbox_duochoice input:checked + .switch-container .mid{border-color:#27ae60;}
+
+form.formulaire .row{margin-top:10px;}
+form.formulaire .row .status{display:none;}
+
+.me-contacter{margin:20px 0;}
+.me-contacter .confirmation{margin:0 50px;color:#000;}
