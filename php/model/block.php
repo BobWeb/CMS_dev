@@ -50,6 +50,18 @@ class block extends common_model {
                     }
                 }
             }
+            if($htmlHead != ""){
+                $htmlHead = '<div class="cms_header">'.$htmlHead."</div>";
+            }
+            if($htmlLeft != ""){
+                $htmlLeft = '<div class="cms_left">'.$htmlLeft."</div>";
+            }
+            if($htmlRight != ""){
+                $htmlRight = '<div class="cms_right">'.$htmlRight."</div>";
+            }
+            if($htmlFooter != ""){
+                $htmlFooter = '<div class="cms_footer">'.$htmlFooter."</div>";
+            }
             $html = $htmlHead.$htmlLeft.$htmlRight.$htmlFooter;
         }
         return $html;
